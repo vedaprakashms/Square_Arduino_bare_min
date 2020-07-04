@@ -58,8 +58,6 @@ F 3 "~" H 3360 3260 50  0001 C CNN
 	1    3360 3060
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2250 2860 3100 2860
 $Comp
 L power:GND #PWR05
 U 1 1 5F0100FC
@@ -370,12 +368,12 @@ Wire Wire Line
 Wire Wire Line
 	8620 2610 8430 2610
 $Comp
-L Connector:Conn_01x08_Male J2
+L Connector:Conn_01x09_Male J2
 U 1 1 5F04202B
 P 8810 3190
-F 0 "J2" H 8782 3072 50  0000 R CNN
-F 1 "Conn_01x08_Male" H 8782 3163 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal" H 8810 3190 50  0001 C CNN
+F 0 "J2" H 8782 3122 50  0000 R CNN
+F 1 "Conn_01x08_Male" H 8782 3213 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Horizontal" H 8810 3190 50  0001 C CNN
 F 3 "~" H 8810 3190 50  0001 C CNN
 	1    8810 3190
 	-1   0    0    1   
@@ -665,18 +663,12 @@ F 3 "" H 5840 5630 50  0001 C CNN
 $EndComp
 Text Label 5840 4970 1    50   ~ 0
 D0_RX
-$Comp
-L Connector:Conn_01x01_Male J5
-U 1 1 5F097A77
-P 3100 3060
-F 0 "J5" V 3160 3160 50  0000 R CNN
-F 1 "Conn_01x01_Male" H 3250 3020 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal" H 3100 3060 50  0001 C CNN
-F 3 "~" H 3100 3060 50  0001 C CNN
-	1    3100 3060
-	0    -1   -1   0   
-$EndComp
-Connection ~ 3100 2860
 Wire Wire Line
-	3100 2860 3360 2860
+	2250 2860 3360 2860
+Text Label 2980 2860 2    50   ~ 0
+RST
+Wire Wire Line
+	8610 3590 8420 3590
+Text Label 8420 3590 2    50   ~ 0
+RST
 $EndSCHEMATC
