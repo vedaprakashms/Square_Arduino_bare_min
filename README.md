@@ -1,2 +1,6 @@
-# Square_Arduino_bare_min
+# Square_Simpino_bare_min
+
+## Introduction
+The main intention of this circuit is to have only bare minimum components. 
+the Entire circuit will be placed in a square form factor, unlike the traditional arduino with rail configuration so that the connection to other components becomes easy. 
  
