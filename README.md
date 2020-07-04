@@ -14,3 +14,8 @@ connect the headers connections named on the backside of the board to associated
 
 ### Via Bootloader. 
 #### For the first time use
+
+Use the ISP method to burn the boot loader to the IC chip. the advantage of using the ISP method is it give faster boot time as compared to the bootloader method. 
+
+#### Bootloader
+use the connect the serial headers to serial headers of CH340 or FTDI chipset and use as normal arduino uno or arduino nano. 
