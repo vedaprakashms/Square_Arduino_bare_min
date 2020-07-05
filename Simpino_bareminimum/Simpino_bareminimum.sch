@@ -671,4 +671,46 @@ Wire Wire Line
 	8610 3590 8420 3590
 Text Label 8420 3590 2    50   ~ 0
 RST
+$Comp
+L Connector:AVR-ISP-6 J5
+U 1 1 5F0192B3
+P 2110 6890
+F 0 "J5" H 1781 6986 50  0000 R CNN
+F 1 "AVR-ISP-6" H 1781 6895 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 1860 6940 50  0001 C CNN
+F 3 " ~" H 835 6340 50  0001 C CNN
+	1    2110 6890
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2010 6080 2010 6390
+$Comp
+L power:GND #PWR013
+U 1 1 5F01EED3
+P 2010 7290
+F 0 "#PWR013" H 2010 7040 50  0001 C CNN
+F 1 "GND" H 2015 7117 50  0000 C CNN
+F 2 "" H 2010 7290 50  0001 C CNN
+F 3 "" H 2010 7290 50  0001 C CNN
+	1    2010 7290
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2510 6690 2790 6690
+Wire Wire Line
+	2510 6790 2790 6790
+Wire Wire Line
+	2510 6890 2790 6890
+Wire Wire Line
+	2510 6990 2790 6990
+Text Label 2010 6080 1    50   ~ 0
+VCC
+Text Label 2790 6690 0    50   ~ 0
+D12_MISO
+Text Label 2790 6790 0    50   ~ 0
+D11_MOSI
+Text Label 2790 6890 0    50   ~ 0
+D13_SCK
+Text Label 2790 6990 0    50   ~ 0
+RST
 $EndSCHEMATC
