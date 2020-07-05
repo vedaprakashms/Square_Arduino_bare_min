@@ -13,7 +13,7 @@ The square has 4 junctions with connectors on each side, as shown in the figure 
 
 ## To program
 ### Via ISP
-connect the headers connections named on the backside of the board to associated pins on the ISP programmers such as USB ISP or avr isp etc.., Select the programer on the Arduino IDE and hit the program via external programer. 
+Connect the ISP headers via the ISP provided headers or via the pins on the south junction with the corresponding pins from the ISP programer to complete the circuit and program via any of the programs like Arduino using external programer or AVRdude etc..
 
 ### Via Bootloader. 
 #### For the first time use
