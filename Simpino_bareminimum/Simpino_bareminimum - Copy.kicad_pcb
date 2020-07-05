@@ -34,8 +34,8 @@
   )
 
   (setup
-    (last_trace_width 0.32)
-    (trace_clearance 0.16)
+    (last_trace_width 0.35)
+    (trace_clearance 0.2)
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.2)
@@ -55,8 +55,8 @@
     (mod_edge_width 0.12)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.524 1.524)
-    (pad_drill 0.762)
+    (pad_size 1.7 1.7)
+    (pad_drill 0)
     (pad_to_mask_clearance 0.05)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
@@ -122,8 +122,8 @@
   (net 30 /RST)
 
   (net_class Default "This is the default net class."
-    (clearance 0.16)
-    (trace_width 0.32)
+    (clearance 0.2)
+    (trace_width 0.35)
     (via_dia 0.8)
     (via_drill 0.4)
     (uvia_dia 0.3)
@@ -167,6 +167,9 @@
     )
     (fp_text value "" (at 69.3 64.9) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (fp_text user "West Junction" (at 69.915 64.6446 -180) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
   )
 
