@@ -9,7 +9,7 @@ This design is highly influenced by the FabLab design for the similar circuit, T
 The entire circuit is plotted on a 50mm X 50mm square.
 
 The square has 4 junctions with connectors on each side, as shown in the figure below. 
-![Simpino](Simpino_bareminimum\img\frnt_view.png)
+![Simpino](Simpino_bareminimum/img/frnt_view.png)
 
 ## To program
 ### Via ISP
